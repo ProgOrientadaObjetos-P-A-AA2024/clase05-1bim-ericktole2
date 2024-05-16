@@ -89,6 +89,7 @@ public class LibretaCalificacion {
                     obtenerCalificaciones()[i].obtenerNombreMateria(),
                     obtenerCalificaciones()[i].obtenerNota());
         }
+        // Sobre escru
         cadena = String.format("%sPromedio calificaciones: %.2f\n"
                 + "Promedio cuantitativo: %s\n",  
                 cadena, obtenerPromedio(), obtenerPromedioCualitativo());
